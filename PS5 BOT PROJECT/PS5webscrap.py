@@ -10,10 +10,10 @@ driver = webdriver.Chrome(PATH)
 driver.get("https://www.walmart.com/account/login?tid=0&returnUrl=%2F")
 
 username = driver.find_element_by_id("email")
-username.send_keys("adetunjigbenga37@gmail.com")
+username.send_keys("Type Email Address")
 
 password = driver.find_element_by_id("password")
-password.send_keys("f3K7g7xXEeTB")
+password.send_keys("Type Password")
 
 login_btn = driver.find_element_by_xpath('//*[@id="sign-in-form"]/button[1]').click()
 
