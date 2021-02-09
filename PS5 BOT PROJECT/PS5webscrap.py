@@ -34,5 +34,5 @@ time.sleep(3)
 place_order = driver.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[1]/div[3]/div/div/div[2]/div[1]/div[2]/div/div/div[2]/div/form/div/button/span').click()
 
 enter_csv = driver.find_element_by_xpath('//*[@id="cvv-confirm"]')
-enter_csv.send_keys('940')
+enter_csv.send_keys('Type Debitcard CVV')
 
